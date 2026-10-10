@@ -22,8 +22,9 @@ a{
 }
 
 .background-img{
-    background-image: url('./deyosse-mobile.jpg');
+    background-image: url('../bg1.jpg') !important;
     background-size: cover;
+    background-position: 50% 50%;
 }
 
 .rounded-circle{
@@ -62,7 +63,7 @@ a:active{
 }
 
 .alternate{
-    background-color: rgb(253, 195, 154);
+    background-color: #f0e0d0;
     /* background-image: url('./bg2.jpg'); */
 }
 
@@ -126,6 +127,8 @@ hr{
 
 .deyosse-portfolio-header{
     font-family: 'Raleway', sans-serif;
+    font-weight: 12px;
+    font-weight: bold;
 }
 
 .deyosse-portfolio-text{
